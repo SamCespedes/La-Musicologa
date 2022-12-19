@@ -362,6 +362,7 @@
 "Assets/MainMenu.cs"
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/VidaPlayer.cs"
 -langversion:9.0
 
 /deterministic

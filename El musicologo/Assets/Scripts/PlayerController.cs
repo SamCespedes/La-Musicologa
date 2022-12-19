@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public new Transform camera;  
     public float speed= 4;
     public float gravity = -9.8f;
+    public float velocidad_salto=8.0f;
 
 
     void Start()
@@ -41,7 +42,6 @@ public class PlayerController : MonoBehaviour
 
             transform.rotation= Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), 0.2f);
         }
-       
        movement.y += gravity * Time.deltaTime;
        characterController.Move(movement);
        animator.SetFloat("Speed", movementSpeed);
