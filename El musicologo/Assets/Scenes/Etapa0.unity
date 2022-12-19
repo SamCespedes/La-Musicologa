@@ -1035,13 +1035,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.81
+  m_Height: 1.6
   m_Radius: 0.82
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.8, z: 0}
+  m_Center: {x: 0, y: 0.92, z: 0}
 --- !u!114 &1348990584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,14 +1054,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ea694c1f9fd564aad1a544bfb5096e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalMove: 0
-  verticalMove: 0
-  Player: {fileID: 0}
-  PlayerSpeed: 10
-  mainCamera: {fileID: 963194227}
-  gravity: 30
-  fallVelocity: 0
-  jumpForce: 8
+  camera: {fileID: 963194228}
+  speed: 4
+  gravity: -9.8
 --- !u!136 &1348990586
 CapsuleCollider:
   m_ObjectHideFlags: 0
